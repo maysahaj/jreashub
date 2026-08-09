@@ -14,19 +14,21 @@
 </head>
 
 <body>
+  <!-- back to top button-->
+	<a class="backTop" href="##">
+		<i class="fas fa-arrow-up"></i>
+	</a>
   <!-- header Section -->
   <section class="header fixed-top ">
      <div class="container">
-        <nav class="navbar navbar-expand-xxl navbar-dark bg-light" aria-label="Seventh navbar example">
+        <nav class="navbar navbar-expand-xxl navbar-dark bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
               <img src="assets/img/5 3.png" alt=""  class="d-inline-block align-text-top">
-              Pan
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarsExampleXxl">
               <ul class="navbar-nav m-auto mb-2 mb-xl-0">
                 <li class="nav-item">
@@ -35,22 +37,23 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Donation</a>
                 </li>
-                  <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
                   <a 
-            class="nav-link dropdown-toggle custom-dropdown-toggle text-dark" 
-            href="#" 
-            id="servicesDropdown" 
-            role="button" 
-            data-bs-toggle="dropdown" 
-            aria-expanded="false"
-          >
-            Services
-<i class="fa-solid fa-chevron-down ms-1 dropdown-icon" style="font-size: 0.8em;"></i>          </a>
-                   <ul class="dropdown-menu custom-dropdown-menu border-0 shadow-sm rounded-3" aria-labelledby="servicesDropdown">
-            <li><a class="dropdown-item py-2 px-3" href="#">Service 1</a></li>
-            <li><a class="dropdown-item py-2 px-3" href="#">Service 2</a></li>
-            <li><a class="dropdown-item py-2 px-3" href="#">Service 3</a></li>
-          </ul>
+                    class="nav-link dropdown-toggle custom-dropdown-toggle text-dark" 
+                    href="#" 
+                    id="servicesDropdown" 
+                    role="button" 
+                    data-bs-toggle="dropdown" 
+                    aria-expanded="false"
+                  >
+                    Services
+                    <i class="fa-solid fa-chevron-down ms-1 dropdown-icon" style="font-size: 0.8em;"></i>   
+                  </a>
+                  <ul class="dropdown-menu custom-dropdown-menu border-0 shadow-sm rounded-3" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item py-2 px-3" href="#">Service 1</a></li>
+                    <li><a class="dropdown-item py-2 px-3" href="#">Service 2</a></li>
+                    <li><a class="dropdown-item py-2 px-3" href="#">Service 3</a></li>
+                  </ul>
                 </li>
 
                 <li class="nav-item">
@@ -63,28 +66,36 @@
               </ul>
               <div class=" nav-icon d-flex align-items-center justify-content-center gap-3">
         
-        <!-- أيقونة البحث -->
-        <button class="btn btn-link text-secondary p-1 border-0 shadow-none icon-btn">
-          <i class="fa-solid fa-magnifying-glass fs-5"></i>
-        </button>
+                <div class="search-container position-relative d-flex align-items-center">
+                  <input type="text" class="search-input-field form-control rounded-pill ps-3 pe-4" id="searchInputField" placeholder="Search...">
+                  
+                  <button class="search-action-btn border-0 shadow-none" id="searchTriggerBtn" type="button" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
 
-        <!-- أيقونة اللغة -->
-        <button class="btn btn-link text-secondary p-1 border-0 shadow-none icon-btn">
-          <i class="fa-solid fa-globe fs-5"></i>
-        </button>
+                  <!-- lan -->
+                  <div class="dropdown language-dropdown">
+                    <button class="lang-action-btn border-0 shadow-none dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Change Language">
+                      <i class="fa-solid fa-globe"></i>
+                    </button>
+                    <ul class="dropdown-menu custom-lang-menu border-0 shadow-sm rounded-3 mt-2" aria-labelledby="languageDropdown">
+                      <li><a class="dropdown-item py-1 px-2 fs-9" href="#">English</a></li>
+                      <li><a class="dropdown-item py-1 px-2 fs-9" href="#">العربية</a></li>
+                    </ul>
+                  </div>
+                  <!-- login/signup -->
+                  <a href="#" class="d-flex align-items-center gap-2 text-decoration-none text-dark ms-1 me-2">
+                    <img src="assets/img/Ellipse 1.png" alt="User Profile" class="rounded-circle object-fit-cover" >
+                    <span class="fw-medium small">Sign in</span>
+                  </a>
 
-        <!-- صورة المستخدم وتسجيل الدخول -->
-        <a href="#" class="d-flex align-items-center gap-2 text-decoration-none text-dark ms-1 me-2">
-          <img src="assets/img/Ellipse 1.png" alt="User Profile" class="rounded-circle object-fit-cover" >
-          <span class="fw-medium small">Sign in</span>
-        </a>
+                  <!-- (Donate Button) -->
+                  <a href="#" class="btn btn-teal px-4 py-2 rounded-pill fw-medium">
+                    Donate
+                  </a>
 
-        <!-- زر التبرع (Donate Button) -->
-        <a href="#" class="btn btn-teal px-4 py-2 rounded-pill fw-medium">
-          Donate
-        </a>
-
-      </div>
+                </div>
             </div>
           </div>
         </nav>
