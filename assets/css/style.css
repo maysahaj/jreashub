@@ -26,8 +26,8 @@ body{
  .navbar-dark .navbar-nav a.nav-link {
     color: #000000;
     font-size: 16px;
-    padding: 10px 25px;
-    font-weight: 500;
+    padding: 10px 20px;
+    font-weight: normal;
  }
 .navbar-dark .navbar-nav a.active{
  color:#10696E;
