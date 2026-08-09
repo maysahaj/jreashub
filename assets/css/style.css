@@ -961,3 +961,6 @@ select.custom-select option:disabled {
   margin-top:30px;
 }
 }
+.scrollNavbar{
+        background: #ffffff!important; 
+    }
