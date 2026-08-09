@@ -955,3 +955,9 @@ select.custom-select option:disabled {
 .visible {
   display: block;
 }
+@media (max-width: 1399.5px) { /* شاشات أقل من الـ XXL */
+
+.row1{
+  margin-top:30px;
+}
+}
