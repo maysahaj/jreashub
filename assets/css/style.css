@@ -1024,6 +1024,7 @@ select.custom-select option:disabled {
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top:10px;
 }
 .learning-courses .card:hover{
   border-color: #146666 !important; /* لون التراكواز الأساسي للموقع */
