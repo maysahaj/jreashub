@@ -958,7 +958,7 @@ select.custom-select option:disabled {
 @media (max-width: 1399.5px) { /* شاشات أقل من الـ XXL */
 
 .row1{
-  margin-top:30px;
+  margin-top:10px;
 }
 }
 .scrollNavbar{
@@ -1006,6 +1006,7 @@ select.custom-select option:disabled {
     font-size: 1rem !important;
   }
 }
+
 .learning-courses h2{
   font-size: 1.5rem;
 }
@@ -1019,26 +1020,22 @@ select.custom-select option:disabled {
   border-radius: 10px;
 }
 
-.learning-courses .card {
-  background-color: #f4f8f8; 
-  border: 1px solid #146666;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top:10px;
-}
+
 .learning-courses .card:hover{
   border-color: #146666 !important; /* لون التراكواز الأساسي للموقع */
   background-color: #f0f7f7;
   box-shadow: 0 6px 15px rgba(20, 102, 102, 0.08);
 }
 
-
-
 .learning-courses .card {
   transition: all 0.3s ease;
   background-color: #f4f8f8;
   border: 1px solid #c6dada;
+  margin-top:20px !important;
+
 }
+
+
 
 .learning-courses .card:hover {
   border-color: #146666 !important;
