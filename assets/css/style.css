@@ -1021,7 +1021,7 @@ select.custom-select option:disabled {
 
 .learning-courses .card {
   background-color: #f4f8f8; 
-  border: 1px solid transparent;
+  border: 1px solid #146666;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top:10px;
@@ -1037,7 +1037,7 @@ select.custom-select option:disabled {
 .learning-courses .card {
   transition: all 0.3s ease;
   background-color: #f4f8f8;
-  border: 1px solid transparent;
+  border: 1px solid #c6dada;
 }
 
 .learning-courses .card:hover {
