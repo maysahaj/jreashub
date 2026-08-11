@@ -1047,3 +1047,42 @@ select.custom-select option:disabled {
 .learning-courses .card:hover p {
   color: #146666 !important;
 }
+
+/*  */
+/*  */
+/* 
+ /* */ 
+ /*  */
+ /* تنسيق فلاتر التبويب العلوية */
+.custom-filter-tabs .nav-link {
+  color: #4b5563;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.custom-filter-tabs .nav-link.active {
+  background-color: #146666 !important; /* لون التراكواز الأساسي للموقع */
+  color: #ffffff !important;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border: 1px solid #f3f4f6 !important;
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(20, 102, 102, 0.1) !important;
+  border-color: #146666 !important;
+}
+
+.course-link {
+  transition: gap 0.2s ease;
+}
+
+.course-card:hover .course-link {
+  gap: 8px !important; 
+}
