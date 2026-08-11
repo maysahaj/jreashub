@@ -964,3 +964,88 @@ select.custom-select option:disabled {
 .scrollNavbar{
         background: #ffffff!important; 
     }
+
+  .courses-banner{
+  background-image: url('../img/b.png'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding-top: 20px;
+  margin-top:70px;
+  
+  min-height: 350px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  width:100%;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "›" !important;
+  color: #146666 !important; 
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .courses-banner {
+    background-size: contain !important;
+    background-position: center !important;
+    min-height: 220px !important; /*  */
+  }
+}
+.courses-banner h1{
+  font-size: 2.8rem;   
+  color: #1f2937;   
+  font-weight:600; 
+  letter-spacing: -0.5px; /*  */
+}
+
+@media (max-width: 768px) {
+  .courses-banner h1{
+    font-size: 1rem !important;
+  }
+}
+.learning-courses h2{
+  font-size: 1.5rem;
+}
+
+
+.course-icon {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  background-color: #146666;  
+  border-radius: 10px;
+}
+
+.learning-courses .card {
+  background-color: #f4f8f8; 
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.learning-courses .card:hover{
+  border-color: #146666 !important; /* لون التراكواز الأساسي للموقع */
+  background-color: #f0f7f7;
+  box-shadow: 0 6px 15px rgba(20, 102, 102, 0.08);
+}
+
+
+
+.learning-courses .card {
+  transition: all 0.3s ease;
+  background-color: #f4f8f8;
+  border: 1px solid transparent;
+}
+
+.learning-courses .card:hover {
+  border-color: #146666 !important;
+  background-color: #f0f7f7 !important;
+  box-shadow: 0 6px 15px rgba(20, 102, 102, 0.08) !important;
+}
+
+.learning-courses .card:hover .card-title,
+.learning-courses .card:hover p {
+  color: #146666 !important;
+}
