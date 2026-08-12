@@ -1086,3 +1086,68 @@ select.custom-select option:disabled {
 .course-card:hover .course-link {
   gap: 8px !important; 
 }
+/*  */
+/*  */
+/*  */
+/* تخصيص لون اللينك الأساسي وحركة السهم عند التحويم (Hover) */
+.course-link {
+  color: #146666 !important;
+  transition: all 0.3s ease;
+}
+
+.course-link:hover {
+  color: #0d4444 !important;
+}
+
+.course-link:hover i {
+  transform: translateX(4px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.course-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.08) !important;
+}
+/*  */
+/*  */
+/* تنسيق الـ Modal وزواياه */
+.modal-content {
+  border-radius: 1.25rem !important;
+}
+
+/* تنسيق الحقول وعناصر الإدخال */
+.modal .form-control {
+  font-size: 0.875rem;
+  box-shadow: none !important;
+}
+
+.modal .form-control:focus {
+  border-color: #146666;
+  background-color: #fff !important;
+}
+
+/* أيقونات حقول الإدخال الجانبية */
+.modal .input-group-text {
+  border-color: #dee2e6;
+  color: #6c757d;
+}
+
+/* أزرار الـ Radio للنوع */
+.modal .form-check-input:checked {
+  background-color: #146666;
+  border-color: #146666;
+}
+
+/* زر الـ Submit وتأثيره عند التحويم */
+.modal button[type="submit"] {
+  background-color: #146666;
+  transition: background-color 0.2s ease;
+}
+
+.modal button[type="submit"]:hover {
+  background-color: #0f4d4d;
+}
