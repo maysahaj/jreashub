@@ -989,7 +989,7 @@ select.custom-select option:disabled {
 }
 @media (max-width: 768px) {
   .courses-banner {
-    background-size: contain !important;
+  background-size: cover;       
     background-position: center !important;
     min-height: 220px !important; /*  */
   }
@@ -1150,4 +1150,89 @@ select.custom-select option:disabled {
 
 .modal button[type="submit"]:hover {
   background-color: #0f4d4d;
+}
+/*  */
+/*  */
+/* تنسيقات training details */
+
+.training-details-section {
+  background-color: #f8f9fa;
+}
+
+.training-details-card {
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+}
+
+.training-details-card .btn:hover {
+  background-color: #0f4f4f !important;
+}
+/* تنسيقات بطاقات ما ستتعلمه (What You'll Learn) */
+.training-details-card-item {
+  background-color: #f4f7f6;
+  border: 1px solid #e9edf0;
+  transition: all 0.3s ease;
+}
+
+.training-details-card-item:hover {
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transform: translateY(-3px);
+}
+
+.training-details-card-item .training-icon-wrapper {
+  width: 24px;
+  height: 24px;
+  background-color: #146666;
+}
+
+.training-details-card-item .training-check-icon {
+  font-size: 0.65rem;
+}
+
+.training-details-card-item .training-card-title {
+  font-size: 0.9rem;
+}
+
+.training-details-card-item .training-card-text {
+  font-size: 0.8rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* تنسيقات قسم Meet Your Instructor */
+.training-details-instructor .training-instructor-card {
+  border-color: #e9edf0 !important;
+  transition: all 0.3s ease;
+}
+
+.training-details-instructor .training-instructor-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .075) !important;
+}
+
+/* تحكم بحجم صورة المحاضر دائرية الشكل */
+.training-details-instructor .training-instructor-img-wrapper {
+  width: 110px;
+  height: 110px;
+  flex-shrink: 0;
+}
+
+.training-details-instructor .training-instructor-name {
+  font-size: 1.1rem;
+}
+
+.training-details-instructor .training-instructor-role {
+  color: #146666;
+  font-size: 0.875rem;
+}
+
+.training-details-instructor .training-instructor-rating {
+  font-size: 0.8rem;
+}
+
+.training-details-instructor .training-instructor-bio {
+  font-size: 0.825rem;
+  line-height: 1.5;
 }
