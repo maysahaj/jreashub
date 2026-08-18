@@ -1300,5 +1300,5 @@ select.custom-select option:disabled {
 }
 .training-details-initiatives .nav-link.active{
 background:transparent !important;
-border:0px !important;
+border:0px #146666 !important;
 }
