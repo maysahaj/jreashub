@@ -1236,3 +1236,65 @@ select.custom-select option:disabled {
   font-size: 0.825rem;
   line-height: 1.5;
 }
+/*  */
+/*  */
+/* تنسيقات قسم Why Your Contribution Matters */
+.training-details-mission .training-mission-stat-card {
+  background-color: #fcfcfc !important;
+  border-color: #eef2f5 !important;
+  transition: all 0.3s ease;
+}
+
+.training-details-mission .training-mission-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .05) !important;
+}
+
+.training-details-mission .training-mission-title {
+  font-size: 1.85rem;
+}
+
+/*  */
+/*  */
+.training-details-initiatives .training-initiative-card {
+  background-color: #f7fafc;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.training-details-initiatives .training-initiative-card-active {
+  border-color: #146666 !important;
+  background-color: #f8fbfa;
+}
+
+.training-details-initiatives .training-initiative-card:hover {
+  border-color: #146666 !important;
+  box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .04);
+}
+/*  */
+/* تنسيقات قسم Student Support Space */
+.training-details-support .training-support-feature-card {
+  border-color: #eef2f5 !important;
+  transition: all 0.3s ease;
+  padding:10px;
+}
+
+.training-details-support .training-support-feature-card:hover {
+  border-color: #146666 !important;
+  background-color: #f8fbfa !important;
+}
+
+.training-details-support .training-support-meta-bar {
+  border-color: #eef2f5 !important;
+}
+
+.training-details-support .training-support-meta-bar .training-meta-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #f7fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #146666 !important;
+}
