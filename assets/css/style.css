@@ -1298,3 +1298,7 @@ select.custom-select option:disabled {
   border-radius: 50%;
   color: #146666 !important;
 }
+.training-details-initiatives .nav-link.active{
+background:transparent !important;
+border:0px !important;
+}
