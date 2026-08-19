@@ -1302,3 +1302,21 @@ select.custom-select option:disabled {
 background:transparent !important;
 border:0px #146666 !important;
 }
+/*  */
+
+/* تنسيقات قسم التبرع */
+.donation-section .donation-img-wrapper {
+  border-color: #eef2f5 !important;
+  transition: all 0.3s ease;
+}
+
+.donation-section .donation-img-wrapper:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .075) !important;
+}
+
+.donation-section .btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
