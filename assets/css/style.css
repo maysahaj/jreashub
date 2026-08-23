@@ -1402,3 +1402,9 @@ border:0px #146666 !important;
   transform: translateY(-7px) !important;
   box-shadow: 0 12px 24px rgba(20, 102, 102, 0.15) !important;
 }
+
+.Student-say {
+    background: linear-gradient(180deg, #10696E0D 0%, #C9E2EE33 100%);
+}
+
+
