@@ -1320,3 +1320,85 @@ border:0px #146666 !important;
   transform: translateY(-2px);
   transition: all 0.2s ease;
 }
+/* تنسيقات قسم About Top */
+
+.about-title {
+  line-height: 1.2;
+  color: var(--text-main, #212529);
+  letter-spacing: -0.5px;
+}
+
+.about-description {
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.about-features .icon-check {
+  width: 24px;
+  height: 24px;
+  background-color: #146666;
+  font-size: 0.75rem;
+}
+
+.about-features .feature-text {
+  color:#212529 ;
+}
+
+.about-explore-btn {
+  background-color: #146666;
+  transition: all 0.3s ease;
+}
+
+.about-explore-btn:hover {
+  background-color: #0f4f4f;
+  transform: translateY(-2px);
+}
+
+.about-image-wrapper img {
+  max-height: 400px;
+}
+
+/* تنسيقات قسم card-about وتأثير التمرير */
+.card-about {
+  background-color: var(--bg-secondary, #f8f9fa) !important;
+  transition: background-color 0.3s ease;
+}
+
+.card-about .feature-card {
+  background-color: var(--bg-card, #ffffff) !important;
+  border-color: var(--border-color, #eef2f5) !important;
+  transition: all 0.3s ease;
+}
+
+.card-about .feature-card:hover {
+  transform: translateY(-5px);
+  border-color: #146666 !important;
+  box-shadow: 0 0.5rem 1.5rem rgba(20, 102, 102, 0.08) !important;
+}
+
+.card-about h2,
+.card-about h5 {
+  color: var(--text-main, #212529) !important;
+}
+
+.card-about p {
+  color: var(--text-muted, #6c757d) !important;
+}
+
+.card-about .icon-box {
+  background-color: #e6f2f2 !important;
+  color: #146666 !important;
+}
+
+
+.card-about .feature-card {
+  box-shadow: none !important;
+  transition: all 0.35s ease-in-out !important;
+  border: 1px solid #eef2f5 !important;
+}
+
+.card-about .feature-card:hover {
+  transform: translateY(-7px) !important;
+  box-shadow: 0 12px 24px rgba(20, 102, 102, 0.15) !important;
+}
