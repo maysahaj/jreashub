@@ -2,6 +2,7 @@ $(document).ready(function(){
     var scrollTop =0;
     $(window).scroll(function(){
         scrollTop = $(window).scrollTop();
+        $('.header').toggleClass('scrolled', scrollTop > 30);
         if (scrollTop > 100){
             $('.navbar').addClass ('scrollNavbar');
 			$('.backTop').addClass ('visible');
